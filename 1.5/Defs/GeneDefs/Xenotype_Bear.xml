@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>ST_Bear</defName>
+		<label>Bear</label>
+		
+		<description>Bears</description>
+		<descriptionShort>We Bear Bears</descriptionShort>
+		
+		<iconPath>UI/Icons/Xenotypes/Neko</iconPath>
+		<inheritable>true</inheritable>
+		
+		<genes>
+			<!-- Morphing -->
+			<li>VRE_Morphs_ST_Lupine</li>
+			<!-- Appearance -->
+			<li>Body_Fat</li>
+			<!-- Behavior -->
+			<li>VerySleepy</li>
+			<li>Aggression_DeadCalm</li>
+			<li>Mood_Sanguine</li>
+			<!-- Stats -->
+			<li>DarkVision</li>
+			<li>MoveSpeed_Slow</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>StrongStomach</li>
+			<li>RobustDigestion</li>
+			<!-- Ability -->
+			<li>VRE_GermlineReimplanter</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>ST_Lupine</defName>
+		<label>Lupine</label>
+		
+		<description>Lupine</description>
+		<descriptionShort>We lupine lupines</descriptionShort>
+		
+		<iconPath>UI/Icons/Xenotypes/Bakeneko</iconPath>
+		<inheritable>true</inheritable>
+		
+		<genes>
+			<!-- Morphing -->
+			<li>VRE_Morphs_ST_Bear</li>
+			<!-- Appearance -->
+			<li>Furskin</li>
+			<li>VoiceRoar</li>
+			<li>Body_Fat</li>
+			<li>ST_Huge</li>
+			<!-- Behavior -->
+			<li>Aggression_HyperAggressive</li>
+			<li>Mood_Pessimist</li>
+			<li>Sleepy</li>
+			<li>VRE_Territorial</li>
+			<li>VRE_Nocturnal</li>
+			<!-- Stats -->
+			<li>MeleeDamage_Strong</li>
+			<li>Unstoppable</li>
+			<li>Robust</li>
+			<li>MoveSpeed_Slow</li>
+			<li>WoundHealing_SuperFast</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>StrongStomach</li>
+			<li>RobustDigestion</li>
+			<li>VRE_DodgeDisabled</li>
+			<li>VRE_SpeechInability</li>
+			<li>VRE_SuperiorDarkVision</li>
+			<!-- Ability -->
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

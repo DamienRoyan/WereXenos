@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>ST_Neko</defName>
+		<label>Neko</label>
+		
+		<description>Named after an Old Earth folklore, these werecats live their days as stereotypical cats, lazy yet agile during the day in their Neko form. Most of their day is spent sleeping. By night they transform into vicious Bakeneko, war-beasts better resembling the powerful creatures depicted in folklore, whether as guardians or terrors over mortals.</description>
+		<descriptionShort>Named after an Old Earth folklore, these catgirls live their days as stereotypical felines, lazy yet agile during the day in their Neko form.</descriptionShort>
+		
+		<iconPath>UI/Icons/Xenotypes/Neko</iconPath>
+		<inheritable>true</inheritable>
+		
+		<genes>
+			<!-- Morphing -->
+			<li>VRE_Morphs_ST_Bakeneko</li>
+			<li>VRE_Morphs_NocturnalMorphing</li>
+			<!-- Appearance -->
+			<li>Ears_Cat</li>
+			<li>AFU_BA_LovelyCatTail</li>
+			<li MayRequire="roguecorp.kujiargisia.nekomatatails">Tail_Nekomata</li>
+			<!-- Behavior -->
+			<li>Libido_High</li>
+			<li>VRE_PackMentality</li>
+			<li>VRE_Territorial</li>
+			<li>VRE_Nocturnal</li>
+			<!-- Stats -->
+			<li>DarkVision</li>
+			<li>VRE_ImprovedDodge</li>
+			<!-- Ability -->
+			<li MayRequire="amegakull.simplenekomimixenotype">Neko_Jump</li>
+			<li>VRE_GermlineReimplanter</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>ST_Bakeneko</defName>
+		<label>Bakeneko</label>
+		
+		<description>Named after an Old Earth folklore, these werecats live their days as stereotypical cats, lazy yet agile during the day in their Neko form. By night they transform into vicious Bakeneko, war-beasts better resembling the powerful creatures depicted in folklore, whether as guardians or terrors over mortals.</description>
+		<descriptionShort>Named after an Old Earth folklore, the vicious Bakeneko are war-beasts that better resemble the powerful creatures depicted in folklore, whether as guardians or terrors over mortals.</descriptionShort>
+		
+		<iconPath>UI/Icons/Xenotypes/Bakeneko</iconPath>
+		<inheritable>true</inheritable>
+		
+		<genes>
+			<!-- Morphing -->
+			<li>VRE_Morphs_ST_Neko</li>
+			<!-- Appearance -->
+			<li>VoiceRoar</li>
+			<li>Ears_Cat</li>
+			<li>Furskin</li>
+			<li>Body_Hulk</li>
+			<li>ST_Big</li>
+			<li>AFU_BA_LovelyCatTail</li>
+			<li MayRequire="roguecorp.kujiargisia.nekomatatails">Tail_Nekomata</li>
+			<!-- Behavior -->
+			<li>FireTerror</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>VRE_LightSensitivity</li>
+			<li>VRE_Territorial</li>
+			<li>VRE_PackMentality</li>
+			<li>VRE_Nocturnal</li>
+			<!-- Stats -->
+			<li>MeleeDamage_Strong</li>
+			<li>NakedSpeed</li>
+			<li>WoundHealing_SuperFast</li>
+			<li>RobustDigestion</li>
+			<li>VRE_MoveSpeed_ExtremelyQuick</li>
+			<li>VRE_SuperiorDodge</li>
+			<li>VRE_SpeechInability</li>
+			<li>VRE_SuperiorDarkVision</li>
+			<!-- Ability -->
+			<li MayRequire="amegakull.simplenekomimixenotype">Neko_Jump</li>
+			<li>VRE_WarHowl</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>
