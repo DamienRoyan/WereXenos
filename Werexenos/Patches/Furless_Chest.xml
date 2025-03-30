@@ -1,9 +1,0 @@
-<Patch>
-
-
-	<Operation Class="PatchOperationRemove">
-	  <xpath  MayRequire="vanillaracesexpanded.lycanthrope">*/XenotypeDef[defName="VRE_Wolfman"]/genes/li[text()="VRE_ChestFur"]</xpath>
-	</Operation>
-
-
-</Patch>
